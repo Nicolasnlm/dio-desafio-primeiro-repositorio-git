@@ -1,0 +1,44 @@
+Chave SSH
+É uma forma de conexão encriptada entre duas máquinas. No caso
+uma chave pública que fica no Github e uma privada na máquina local.
+
+Para gerar uma chave, basta colocar o seguinte comando no Bash:
+
+ $ssh-keygen -t ed25519 -C [insira seu email]
+
+Após isso, insira uma senha.
+ Localizando as chaves: 
+
+$cd /c/Users/User/.ssh/
+$ls
+
+Pegando a chave pública: 
+$ cat id_ed25519.pub
+
+Finalizado este processo, coloque a chave na área SSH Keys do
+Github
+
+Inicializar o SSH Agent - Encarregado das chaves
+
+$ eval $(ssh-agent -s)
+-Adicionando a chave
+% ssh-add (chave privada)
+
+Clonando um repositório
+
+$ git clone (ssh do repositório)
+$ y
+Clonado 
+
+Token de acesso pessoal
+Outra forma de logar no Github é o Token de acesso pessoal, é um 
+arquivo que fica guardado na sua máquina.
+
+Instalando:
+>New Personal Token no Settings do Github
+>Copie o Link e salve em um arquivo
+>Quando você for clonar um repositório privado, o protocolo
+será Https
+>$ git clone
+>Cole o token na janela que aparecerá
+

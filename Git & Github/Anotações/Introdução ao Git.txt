@@ -1,0 +1,17 @@
+O git foi craido em 2005 por Linuz Torval (cara do Breaking Bad) criador
+do Linux.
+
+O Git ajuda monitorar diferente versões do seu código, é um sistema distribuído
+de versionamento de código.
+
+Nisso surgiu o Github, que permite que outras pessoas corrigam e ajudem 
+no desenvolvimento do código, além de servir como repositório e até mesmo
+portfólio dos seus softwares.
+
+O modo de interação do usuário com o Git é o CLI - Command Line Interface, 
+ou seja é através de comandos. Também existem algumas extensões e softwares
+para adicionar a parte  gráfica ao Git
+
+Nos próprios sistemas operacionais o usuário possui um terminal com interface
+gráfica, seria o GUI - Graphic User Interface, onde há botões, atalhos de teclado,
+etc... para interagir com o programa

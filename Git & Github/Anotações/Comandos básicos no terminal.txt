@@ -1,0 +1,40 @@
+Comandos básicos nos terminais
+
+-Windows e $Linux
+
+dir ou $ls - Lista os diretórios do OS
+
+cd ou $cd - Navega pelos diretórios, se adicionar
+a barra de espaço, ele pula para o disco local C:\
+ ex: cd Windows
+Para voltar na navegação, usa-se "..", irá voltar um
+nível
+ ex cd Windows ..
+
+cls ou $clear - Limpa o terminal, no Linux pode-se usar 
+CTRL + L
+
+TAB - Autocompleta as linhas
+
+mkdir ou $mkdir - Cria uma nova pasta. "Silence on
+success", se o terminal não retornar nada, significa
+que não há nenhum erro.
+
+echo ou $echo - Mostra qualquer coisa digitada na tela, pode ser
+usado para criar e nomear arquivos //Também funciona no Linux
+ ex: c:\workspace>echo hello > hello.txt
+O ">" é um direcionador de fluxo, então o resultado/output da
+função echo irá jogar dentro de um arquivo
+
+del ou $echo - Deleta arquivos, mas não todo o conteúdo da pasta
+
+rmdir ou $rm - Apaga todo o conteúdo do repositório 
+ex: c:\>rmdir workspace /S /Q - As flags ajudama apagar mais 
+rápido, sem interrupções.
+No Linux: /# rm -rf 
+ As flags -rf significam "Remove" e "Force", como dito acima,
+impede que o OS pergunte se você quer deletar aquela pasta, etc...
+
+-Flags: Flags são linhas extras que podem alterar a 
+execução do comando no terminal
+

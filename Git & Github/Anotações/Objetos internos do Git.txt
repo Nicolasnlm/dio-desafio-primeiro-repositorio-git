@@ -1,0 +1,36 @@
+# Objetos internos do Git
+
+## Blob 
+
+O objeto Blob (bolha) é onde os arquivos ficam guardados e o mesmo
+contém metadados, como identificador, tipo, tamanho e uma "\0".
+Possui sha1.
+
+![](C:\workspace git\dio-desafio-primeiro-repositorio-git\Git & Github\Anotações\Imagens Ilustrativas Git\Objeto Blob.jpg)
+
+## Tree
+
+As "árvores" apontam para os diretórios dos arquivos, podem apontar
+para outros objetos. Elas armazenam Blobs e também contém metadados,
+diferente dos Blobs, a árvore guardo o nome dos arquivos, além de ser
+responsável por toda a estrutura dos diretórios dos arquivos. Possuem
+sha1 e \0. Se um arquivo for modificado, toda a encriptação da mesma é
+modificada.
+
+![](C:\workspace git\dio-desafio-primeiro-repositorio-git\Git & Github\Anotações\Imagens Ilustrativas Git\Objeto Árvore.jpg)
+
+## Commit
+
+É o objeto que junta tudo, aponta para uma árvores, para um parente (que
+é o último arquivo criado antes dele), para um autor(usuário), mensagem
+e timestamp(hora, data em que foi criado). Uma fez que uma arquivo é
+alterado, toda a estrura do commit é modificada.
+
+![](C:\workspace git\dio-desafio-primeiro-repositorio-git\Git & Github\Anotações\Imagens Ilustrativas Git\Commit.jpg)
+
+### Função Hash
+
+Esta função recebe um arquivo e devolve o sha1 desse arquivo
+
+
+

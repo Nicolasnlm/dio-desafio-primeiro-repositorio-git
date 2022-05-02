@@ -1,0 +1,20 @@
+Entendo como o Git funciona por baixo dos panos
+
+Segurança SHA1
+
+A sigla SHA significa Secure Hash Algorithm
+(algorítmo de hash seguro), no qual é um conjunto de
+funções has criptográficas projetadas pela NSA (Agência
+de Segurança Nacional dos EUA)
+
+É capaz de gerar uma encriptação com um conjunto de caracteres
+de 40 dígitos único. Resumindo, é uma forma curta de representar
+um arquivo.
+ ex:
+$ openssl sha1 Nero\inteiris.txt
+>(stdin)= fj2328329892f92839as92898e8928 (exemplo aleatório)
+
+Caso arquivo sofra qualquer modificação, por mínima que ela seja, 
+o algorítmo sha1 irá gerar um novo código de 40 dígitos, sendo assim
+a forma na qual o git identifica alterações nos arquivos.
+

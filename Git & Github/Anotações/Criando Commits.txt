@@ -1,0 +1,35 @@
+Criando um repositório
+
+Selecione uma pasta padrão para trabalhar
+
+>git init - Cria um repositório na pasta.
+ A pasta irá conter outra pasta chamada ".git", é onde está
+todo o código fonte do git
+>ls -a - Ver os arquivos ocultos
+
+Se a primeira vez que está criando um repositório, precisará de 
+algumas configurações:
+
+>$ git config --global user.email "protonmail.com"
+Este comando registra o email 
+> git config --global user.name "nome"
+Resgitra seu Username
+
+Adicionando Arquivo 
+
+ - Tipos de arquivo
+
+1- Markdown - É a forma mais básica de escrever um arquivo 
+HTML, sem precisar de muito conhecimento sobre o assunto, para 
+colocar uma um título grande por exemplo, usa-se #.
+Os arquivos Markdown recebem a extensão .md
+
+No arquivo .md pode-se usar # (texto) ## para aumentar o tamanho,
+**negrito**, _itálico_.
+
+- - //Insere uma bolinha, como uma lista
+
+Criando um commit 
+
+>git add *
+>git commit -m "commit inicial"
