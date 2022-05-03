@@ -1,4 +1,4 @@
-O git foi craido em 2005 por Linuz Torval (cara do Breaking Bad) criador
+O git foi criado em 2005 por Linuz Torval (cara do Breaking Bad) criador
 do Linux.
 
 O Git ajuda monitorar diferente versões do seu código, é um sistema distribuído
